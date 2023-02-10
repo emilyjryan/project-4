@@ -1,13 +1,13 @@
 # Welcome to the *Regulate* App!
 
 ## Tech stack used:
-* Typescript?
+* Typescript
 * React
-* Next
-* Node?
-* Mongo vs. Psql?
+* Express.js
+* Node.js
+* Mongo
 
-I haven't learned Typescript or Next.js yet but I plan to spend some time learning the very basics in the first day or two of the project time and then implementing these frameworks for the app development. I specifically chose Typescript and Next.js because they are popular technologies used in the industry and I want to add them as tools in my software engineering toolbelt.
+I haven't learned Typescript yet but I plan to spend some time learning the very basics in the first day or two of the project time and then implementing this framework for the app development. I specifically chose Typescript because it's a very popular technology used in the industry and I want to add it as a new tool in my software engineering toolbelt.
 
 ## Description
 
@@ -16,13 +16,13 @@ Having and maintaining a consistent routine and daily structure is vital to maki
 3 main elements:
 
 1. Daily schedule and to-do list
-    - Tasks for both night and day
+    - Tasks for either morning or evening
 
 2) Calming environment creator
-    - Choose between an array of background and sound options
+    - Choose between a set list of background and sound options
 
 3) Emotion identifier
-    - Given a visual list of emotions that they can pick to describe their current emotion
+    - Given a visual list of emotions that they can pick one to describe their current emotion
 
 ## Wireframes of the app
 
@@ -36,11 +36,11 @@ Having and maintaining a consistent routine and daily structure is vital to maki
 
 ## Daily Sprints
 
-Friday: learning typescript and Next.js, finishing readme and RESTful routing charts and ERDs
+Friday: Learning Typescript, finishing readme and RESTful routing charts and ERDs
 
 Saturday: Getting basic functionality, create main structure of app
 
-Sunday: Working on user auth and login/logout functionality, connect backend with frontend
+Sunday: Set up backend, connect backend with frontend
 
 Monday: Work on new task creation functionality
 
@@ -48,21 +48,29 @@ Tuesday: Hopefully reach MVP, do basic styling
 
 Wednesday: Stretch goals
 
-Thursday: Final edits and styling
+Thursday: Stretch goals, final edits, and styling
 
-## RESTful routing and ERDs
+## RESTful Routing
 
-I'm waiting on these because I'd love some feedback on my preliminary pitch first before I dive into creating routing charts and database models.
+![Routing Chart](./routing-chart.png)
+
+## ERDs
+
+![ERDs](./ERDs.png)
 
 ## MVP
-* Users can create an account with username and password
-* Users can log in and out of their account
-* Users can add new tasks to their database
-* Users can see a list of their 'to-do' tasks with the ability to check off a task as completed
+* Single user app
+* User can add a new task for either morning or evening (dropdown option)
+* User can see a list of their 'to-do' tasks with the ability to check off a task as completed
+* User can delete a task
+* Emotion finder page renders a short list of emotion pictures and user can click one picture which will be shown larger in a card next to the list
 
 ## Stretch goals
-* Users can delete a to-do task
-* Emotion finder functionality
-* Calming environment functionality with the ability to create a new environment element
+* Add date, day of week, and current time to home page
+* Add day of the week capability to tasks and only render 
+* User auth: users can create account with username and password and log in/out
+* Calming environment functionality
+* Ability to create a new environment element
 * Animations instead of static images for background choices for environments
+* Ability of user to input a url for video to render in calming environment
 * Fun, colorful, calming styling
