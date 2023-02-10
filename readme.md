@@ -74,3 +74,5 @@ Thursday: Stretch goals, final edits, and styling
 * Animations instead of static images for background choices for environments
 * Ability of user to input a url for video to render in calming environment
 * Fun, colorful, calming styling
+* Chat feature so users can keep in touch with each other through the app
+* Links to other resources for families with kids with special needs
