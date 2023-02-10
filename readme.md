@@ -11,7 +11,7 @@ I haven't learned Typescript or Next.js yet but I plan to spend some time learni
 
 ## Description
 
-This is an app designed for a child with special needs to help them practice good habits that help promote independence such as managing a schedule and completing important daily tasks, developing healthy coping strategies for times of frustration and overstimulation, and being able to identify specific emotions in order to express themselves and their needs better.
+Having and maintaining a consistent routine and daily structure is vital to making a child with special needs such as autism feel safe, supported, and regulated. This is an app designed for these children to help them practice good habits that promote independence. Habits include managing a schedule and completing important daily tasks, developing healthy coping strategies for times of frustration or overstimulation, and identifying specific emotions in order to express themselves and their needs better.
 
 3 main elements:
 
@@ -55,12 +55,14 @@ Thursday: Final edits and styling
 I'm waiting on these because I'd love some feedback on my preliminary pitch first before I dive into creating routing charts and database models.
 
 ## MVP
-* users can create an account with username and password, login and logout features
-* users can add new tasks to their database
-* users can see a list of their 'to-do' tasks
-* users can delete a to do task
+* Users can create an account with username and password
+* Users can log in and out of their account
+* Users can add new tasks to their database
+* Users can see a list of their 'to-do' tasks with the ability to check off a task as completed
 
 ## Stretch goals
+* Users can delete a to-do task
 * Emotion finder functionality
-* Calming environment with +create new environment element
-* Styling
+* Calming environment functionality with the ability to create a new environment element
+* Animations instead of static images for background choices for environments
+* Fun, colorful, calming styling
